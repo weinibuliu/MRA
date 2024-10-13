@@ -1,0 +1,30 @@
+{
+    "adb": {
+        "adb_path": "D:/Software/MuMu Player 12/shell/adb.exe",
+        "address": "127.0.0.1:16384",
+        "config": {
+            "extras": {
+                "mumu": {
+                    "enable": true,
+                    "index": 0,
+                    "path": "D:/Software/MuMu Player 12"
+                }
+            }
+        }
+    },
+    "controller": {
+        "name": "android"
+    },
+    "gpu": -1,
+    "resource": "official",
+    "task": [
+        {
+            "name": "OCRToExcel",
+            "option": [
+            ]
+        }
+    ],
+    "win32": {
+        "_placeholder": 0
+    }
+}
