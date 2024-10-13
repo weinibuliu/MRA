@@ -27,6 +27,16 @@
         "template": "trade_buy__747_301_120_50__697_251_220_150.png",
         "action": "Click"
     },
+    "辨別位置(樺石發財樹)": {
+        "recognition": "OCR",
+        "expected": "樺石發財樹",
+        "roi_offset": [
+            1,
+            32,
+            -33,
+            -3
+        ]
+    },
     "獲取文字(樺石發財樹)": {
         "action": "Custom",
         "custom_action": "OCRToExcel"

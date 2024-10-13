@@ -22,7 +22,7 @@ class OCRToExcelAction(CustomAction):
         image = context.tasker.controller.cached_image
         print("辨別位置(樺石發財樹)")
 
-        context.override_pipeline({"辨別位置(樺石發財樹)": {"recognition": "OCR","expected": "樺石發財樹","target_offset": [-10,25,20,10]}})
+        context.override_pipeline({"辨別位置(樺石發財樹)": {"recognition": "OCR","expected": "樺石發財樹","roi_offset": [-10,25,20,10]}})
         context.run_pipeline("辨別位置(樺石發財樹)")
 
         # OCR ON
