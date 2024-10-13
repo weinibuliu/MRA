@@ -1,0 +1,187 @@
+{
+    "交易所_上一页": {
+        "action": "Swipe",
+        "begin": [
+            665,
+            265,
+            1,
+            1
+        ],
+        "end": [
+            665,
+            505,
+            1,
+            1
+        ],
+        "duration": 500,
+        "post_delay": 800
+    },
+    "交易所_下一页": {
+        "action": "Swipe",
+        "begin": [
+            665,
+            505,
+            1,
+            1
+        ],
+        "end": [
+            665,
+            265,
+            1,
+            1
+        ],
+        "duration": 500,
+        "post_delay": 800
+    },
+    "7号自由港_桦石发财树": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\桦石发财树.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "桦石发财树"
+        },
+        "next": [
+            "7号自由港_人工晶花"
+        ]
+    },
+    "7号自由港_人工晶花": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\人工晶花.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "人工晶花"
+        },
+        "next": [
+            "7号自由港_航天纪念品"
+        ]
+    },
+    "7号自由港_航天纪念品": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\航天纪念品.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "航天纪念品"
+        },
+        "next": [
+            "7号自由港_斑节虾"
+        ]
+    },
+    "7号自由港_斑节虾": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\斑节虾.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "斑节虾"
+        },
+        "next": [
+            "7号自由港_坚果"
+        ],
+        "interrupt": [
+            "交易所_下一页"
+        ]
+    },
+    "7号自由港_坚果": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\坚果.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "坚果"
+        },
+        "next": [
+            "7号自由港_啤酒"
+        ],
+        "interrupt": [
+            "交易所_下一页"
+        ]
+    },
+    "7号自由港_啤酒": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\啤酒.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "啤酒"
+        },
+        "next": [
+            "7号自由港_海盐"
+        ]
+    },
+    "7号自由港_海盐": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "goods\\7号自由港\\海盐.png"
+        ],
+        "roi": [
+            500,
+            110,
+            135,
+            575
+        ],
+        "action": "Custom",
+        "custom_action": "GetGoodsData",
+        "custom_action_param": {
+            "city_name": "7号自由港",
+            "goods_name": "海盐"
+        },
+        "next": []
+    }
+}

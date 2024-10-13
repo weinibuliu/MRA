@@ -1,21 +1,13 @@
 {
     "controller": [
         {
-            "name": "android",
+            "name": "Android",
             "type": "Adb"
-        },
-        {
-            "name": "desktop",
-            "type": "Win32",
-            "win32": {
-                "class_regex": ".*",
-                "window_regex": "Visual Studio"
-            }
         }
     ],
     "resource": [
         {
-            "name": "official",
+            "name": "Base",
             "path": [
                 "{PROJECT_DIR}/resource"
             ]
@@ -23,8 +15,8 @@
     ],
     "task": [
         {
-            "name": "OCRToExcel",
-            "entry": "獲取文字(樺石發財樹)"
+            "name": "TestOCR",
+            "entry": "7号自由港_桦石发财树"
         }
     ],
     "option": {}
