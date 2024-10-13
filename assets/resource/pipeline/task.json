@@ -35,7 +35,9 @@
             31,
             3,
             -1
-        ],
+        ]
+    },
+    "獲取文字(樺石發財樹)": {
         "action": "Custom",
         "custom_action": "OCRToExcel"
     },
