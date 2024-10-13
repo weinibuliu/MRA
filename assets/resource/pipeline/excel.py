@@ -17,13 +17,15 @@ class OCRToExcelAction(CustomAction):
         self, context: Context, argv: CustomAction.RunArg
     ) -> bool:
 
-        print(f"正在执行 OCRToExcelAction.run，context: {context}, argv: {argv}")
+        print(f"正在执行 OCRToExcelAction.run,context: {context}, argv: {argv}")
         # 獲得圖片
         image = context.tasker.controller.cached_image
+        print("辨別位置(樺石發財樹)")
+        context.run_pipeline("辨別位置(樺石發財樹)")
 
         # OCR ON
         reco_detail = context.run_recognition(
-           "OCRTask", image, pipeline_override={"OCRTask": {"recognition": "OCR","roi":"辨別位置(樺石發財樹)"}} #Need to set roi
+           "OCRTask", image, pipeline_override={"OCRTask": {"recognition": "OCR","roi":"辨別位置(樺石發財樹)","expected":".*","only_rec":true}} #Need to set roi
         )
         print(reco_detail) #To test
         # 檢查識別結果

@@ -23,14 +23,9 @@
     ],
     "task": [
         {
-            "name": "OCRCity",
-            "entry": "OCRCity"
-        },
-        {
             "name": "OCRToExcel",
-            "entry": "OCRToExcel"
+            "entry": "獲取文字(樺石發財樹)"
         }
     ],
-    "option": {
-    }
+    "option": {}
 }
